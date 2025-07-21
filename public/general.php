@@ -4,8 +4,8 @@
  *
  * @since      1.0.0
  *
- * @package    Fix_Divi
- * @subpackage Fix_Divi/public
+ * @package    Fix_Divi_A11Y_Man_T
+ * @subpackage Fix_Divi_A11Y_Man_T/public
  */
 
 	/**
@@ -14,13 +14,13 @@
 	*
 	**/
 	function fix_divi_add_settings_page() {
-		add_options_page( __('Fix Divi A11y Settings', 'fix-divi'), __('Fix Divi A11y', 'fix-divi'), 'manage_options', 'fix-divi-plugin', 'fix_divi_render_plugin_settings_page' );
+		add_options_page( __('Fix Divi A11y Settings', 'fix-divi-ally-man-t'), __('Fix Divi A11y', 'fix-divi-ally-man-t'), 'manage_options', 'fix-divi-plugin', 'fix_divi_render_plugin_settings_page' );
 	}
 	add_action( 'admin_menu', 'fix_divi_add_settings_page' );
 
 	function fix_divi_render_plugin_settings_page() {
     ?>
-    <?php echo '<h1>' . esc_html__( 'Fix Divi A11y Settings', 'fix-divi' ) . '</h1>'; ?>
+    <?php echo '<h1>' . esc_html__( 'Fix Divi A11y Settings', 'fix-divi-ally-man-t' ) . '</h1>'; ?>
     <form action="options.php" method="post">
         <?php 
         settings_fields( 'fix_divi_plugin_options' );
@@ -33,9 +33,9 @@
 	function fix_divi_register_settings() {
     register_setting( 'fix_divi_plugin_options', 'fix_divi_plugin_options', 'fix_divi_plugin_options_validate' );
 		
-	add_settings_section( 'divi_focus_indicator', __('Focus Indicator Color', 'fix-divi'), '', 'fix_divi_plugin' );
+	add_settings_section( 'divi_focus_indicator', __('Focus Indicator Color', 'fix-divi-ally-man-t'), '', 'fix_divi_plugin' );
 		
-	add_settings_field( 'fix_divi_plugin_setting_focus_indicator', __('Select Focus Indicator Color', 'fix-divi'), 'fix_divi_plugin_setting_focus_indicator', 'fix_divi_plugin', 'divi_focus_indicator' );
+	add_settings_field( 'fix_divi_plugin_setting_focus_indicator', __('Select Focus Indicator Color', 'fix-divi-ally-man-t'), 'fix_divi_plugin_setting_focus_indicator', 'fix_divi_plugin', 'divi_focus_indicator' );
 		
 	}
 	add_action( 'admin_init', 'fix_divi_register_settings' );
@@ -52,7 +52,7 @@
 			$options['focus_indicator']='#3333FF';
 		}
 		?>
-		<label for="focus_indicator"><?php esc_html_e( 'Color:', 'fix-divi' ); ?></label>
+		<label for="focus_indicator"><?php esc_html_e( 'Color:', 'fix-divi-ally-man-t' ); ?></label>
 		<input type="color" id="focus_indicator" name="fix_divi_plugin_options[focus_indicator]" value="<?php echo $options['focus_indicator']; ?>">
 		<?php
 	}

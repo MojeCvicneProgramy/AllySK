@@ -4,6 +4,6 @@
  *
  * @since      1.0.0
  *
- * @package    Fix_Divi
- * @subpackage Fix_Divi/public
+ * @package    Fix_Divi_A11Y_Man_T
+ * @subpackage Fix_Divi_A11Y_Man_T/public
  */
