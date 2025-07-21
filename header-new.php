@@ -129,7 +129,7 @@
 	<?php if ( $et_slide_header || is_customize_preview() ) : ?>
 		<?php ob_start(); ?>
 		<div class="et_slide_in_menu_container">
-			<div class="a11y-close-button-wrap a11y-close-top"><button id="a11y-close-menu-top" class="a11y-close-menu" tabindex="0">Close Menu</button></div>
+			<div class="a11y-close-button-wrap a11y-close-top"><button id="a11y-close-menu-top" class="a11y-close-menu" tabindex="0"><?php esc_html_e('Close Menu', 'Divi'); ?>/button></div>
 			<?php if ( 'fullscreen' === et_get_option( 'header_style', 'left' ) || is_customize_preview() ) { ?>
 				<span class="mobile_menu_bar et_toggle_fullscreen_menu"></span>
 			<?php } ?>
@@ -155,7 +155,7 @@
 				<?php } ?>
 				<form role="search" method="get" class="et-search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<?php
-						printf( '<label><span class="screen-reader-text">Search for:</span><input type="search" class="et-search-field" placeholder="%1$s" value="%2$s" name="s" title="%3$s" /></label>',
+						printf( '<label><span class="screen-reader-text"><?php esc_html_e('Search for:', 'Divi'); ?></span><input type="search" class="et-search-field" placeholder="%1$s" value="%2$s" name="s" title="%3$s" /></label>',
 							esc_attr__( 'Search &hellip;', 'Divi' ),
 							get_search_query(),
 							esc_attr__( 'Search for:', 'Divi' )
@@ -168,7 +168,7 @@
 						 */
 						do_action( 'et_search_form_fields' );
 					?>
-					<button type="submit" id="searchsubmit_header" aria-label="Submit Search"></button>
+					<button type="submit" id="searchsubmit_header" aria-label="<?php echo esc_attr__( 'Submit Search', 'Divi' ); ?>"></button>
 				</form>
 			<?php endif; // true === et_get_option( 'show_search_icon', false ) ?>
 
@@ -316,7 +316,7 @@
 					<?php if ( $show_search_icon ) : ?>
 						<div id="et_top_search">
 							<!--<span id="et_search_icon"></span>-->
-							<button class="fd-access-search"><span class="screen-reader-text">Access Search Form</span><i class="fd-search" aria-hidden="true"></i></button>
+							<button class="fd-access-search"><span class="screen-reader-text"><?php esc_html_e('Access Search Form', 'Divi'); ?>/span><i class="fd-search" aria-hidden="true"></i></button>
 						</div>
 					<?php endif; ?>
 
@@ -337,7 +337,7 @@
 				<div class="container et_search_form_container">
 					<form role="search" method="get" class="et-search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<?php
-						printf( '<label><span class="screen-reader-text">Search for:</span><input type="search" class="et-search-field" placeholder="%1$s" value="%2$s" name="s" title="%3$s" /></label><input type="submit" value="Submit" class="fd-search" aria-label="Submit Search">',
+						printf( '<label><span class="screen-reader-text"><?php esc_html_e('Search for:', 'Divi'); ?></span><input type="search" class="et-search-field" placeholder="%1$s" value="%2$s" name="s" title="%3$s" /></label><input type="submit" value="<?php echo esc_attr__(\'Submit\', \'Divi\'); ?>" class="fd-search" aria-label="<?php echo esc_attr__( 'Submit Search', 'Divi' ); ?>">',
 							esc_attr__( 'Search &hellip;', 'Divi' ),
 							get_search_query(),
 							esc_attr__( 'Search for:', 'Divi' )
@@ -351,7 +351,7 @@
 						do_action( 'et_search_form_fields' );
 					?>
 					</form>
-					<button class="fd-close-search"><span class="screen-reader-text">Close Search Form</span><span class="et_close_search_field" aria-hidden="true"></span></button>
+					<button class="fd-close-search"><span class="screen-reader-text"><?php esc_html_e('Close Search Form', 'Divi'); ?>/span><span class="et_close_search_field" aria-hidden="true"></span></button>
 				</div>
 			</div>
 			<?php endif; ?>

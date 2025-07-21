@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-21 17:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: footer-new.php:18
+msgid "Back to top"
+msgstr ""
+
+#: footer-new.php:39
+msgid "Footer menu"
+msgstr ""
+
+#: public/general.php:17 public/general.php:23
+msgid "Fix Divi A11y Settings"
+msgstr ""
+
+#: public/general.php:17
+msgid "Fix Divi A11y"
+msgstr ""
+
+#: public/general.php:28
+msgid "Save"
+msgstr ""
+
+#: public/general.php:36
+msgid "Focus Indicator Color"
+msgstr ""
+
+#: public/general.php:38
+msgid "Select Focus Indicator Color"
+msgstr ""
+
+#: public/general.php:55
+msgid "Color:"
+msgstr ""
+
+#: header-new.php:132 theme-header-new.php:70
+msgid "Close Menu"
+msgstr ""
+
+#: header-new.php:159 header-new.php:341 theme-header-new.php:87
+msgid "Search &hellip;"
+msgstr ""
+
+#: header-new.php:161 header-new.php:343 theme-header-new.php:87
+msgid "Search for:"
+msgstr ""
+
+#: header-new.php:171 theme-header-new.php:88
+msgid "Submit Search"
+msgstr ""
+
+#: header-new.php:211 header-new.php:290 theme-header-new.php:119
+msgid "Home"
+msgstr ""
+
+#: header-new.php:319
+msgid "Access Search Form"
+msgstr ""
+
+#: header-new.php:354
+msgid "Close Search Form"
+msgstr ""
+
+#: theme-header-new.php:114
+msgid "Primary Menu"
+msgstr ""

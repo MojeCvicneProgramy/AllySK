@@ -1,0 +1,8 @@
+./footer-new.php
+./fix-divi-a11y.php
+./public/pagebuilder.php
+./public/custom.php
+./public/menu.php
+./public/general.php
+./header-new.php
+./theme-header-new.php

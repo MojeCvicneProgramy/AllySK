@@ -1,22 +1,21 @@
 <?php
 /**
  * Plugin Name:       Fix Divi A11y
- * Plugin URI:https://elevagedigital.com/fix-divi-a11y/?utm_source=wordpress&utm_medium=referral&utm_campaign=fixdivi
+ * Plugin URI:        https://elevagedigital.com/fix-divi-a11y/?utm_source=wordpress&utm_medium=referral&utm_campaign=fixdivi
  * Description:       Fix Accessibility Issues in Divi Theme and Page Builder
  * Requires at least: 6.3
  * Requires PHP:      8.1
  * Version:           1.2
  * Author:            Elevage Digital
- * Author URI:https://elevagedigital.com/?utm_source=wordpress&utm_medium=referral&utm_campaign=fixdivi
+ * Author URI:        https://elevagedigital.com/?utm_source=wordpress&utm_medium=referral&utm_campaign=fixdivi
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
-    Fix Divi A11y is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 2 of the License, or any later version. 
-    Fix Divi A11y is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. 
-    You should have received a copy of the GNU General Public License along with Fix Divi A11y. If not, see https://www.gnu.org/licenses/gpl-2.0.html. 
  * Text Domain:       fix-divi
+ * Domain Path:       /languages
  *
  * @package           Fix_Divi
  */
+
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
