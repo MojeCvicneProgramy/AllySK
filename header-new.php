@@ -155,10 +155,11 @@
 				<?php } ?>
 				<form role="search" method="get" class="et-search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<?php
-						printf( '<label><span class="screen-reader-text"><?php esc_html_e('Search for:', 'Divi Child'); ?></span><input type="search" class="et-search-field" placeholder="%1$s" value="%2$s" name="s" title="%3$s" /></label>',
-							esc_attr__( 'Search &hellip;', 'Divi Child' ),
-							get_search_query(),
-							esc_attr__( 'Search for:', 'Divi Child' )
+						echo sprintf('<label><span class="screen-reader-text">%1$s</span><input type="search" class="et-search-field" placeholder="%2$s" value="%3$s" name="s" title="%4$s" /></label>',
+   					 		esc_html__('Search for:', 'Divi Child'),
+							esc_attr__('Search …', 'Divi Child'),
+    						get_search_query(),
+   					 		esc_attr__('Search for:', 'Divi Child')
 						);
 
 						/**
@@ -337,11 +338,17 @@
 				<div class="container et_search_form_container">
 					<form role="search" method="get" class="et-search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<?php
-						printf( '<label><span class="screen-reader-text"><?php esc_html_e('Search for:', 'Divi Child'); ?></span><input type="search" class="et-search-field" placeholder="%1$s" value="%2$s" name="s" title="%3$s" /></label><input type="submit" value="<?php echo esc_attr__(\'Submit\', \'Divi Child\'); ?>" class="fd-search" aria-label="<?php echo esc_attr__( 'Submit Search', 'Divi Child' ); ?>">',
-							esc_attr__( 'Search &hellip;', 'Divi Child' ),
-							get_search_query(),
-							esc_attr__( 'Search for:', 'Divi Child' )
+						echo sprintf('<label><span class="screen-reader-text">%1$s</span><input type="search" 
+						class="et-search-field" placeholder="%2$s" value="%3$s" name="s" title="%4$s" /></label>
+						<input type="submit" value="%5$s" class="fd-search" aria-label="%6$s">',
+    						esc_html__('Search for:', 'Divi Child'),
+    						esc_attr__('Search …', 'Divi Child'),
+    						get_search_query(),
+    						esc_attr__('Search for:', 'Divi Child'),
+    						esc_attr__('Submit', 'Divi Child'),
+   							 esc_attr__('Submit Search', 'Divi Child')
 						);
+
 
 						/**
 						 * Fires inside the search form element, just before its closing tag.

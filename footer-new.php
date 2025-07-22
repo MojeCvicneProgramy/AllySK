@@ -15,7 +15,8 @@ do_action( 'et_after_main_content' );
 
 if ( 'on' === et_get_option( 'divi_back_to_top', 'false' ) ) : ?>
 
-	<span class="et_pb_scroll_top et-pb-icon" aria-label="<?php echo esc_attr__( 'Back to top', Divi Child ); ?>"></span>
+	<span class="et_pb_scroll_top et-pb-icon" aria-label="<?php echo esc_attr__( 'Back to top', 'Divi Child' ); ?>"></span>
+
 
 <?php endif;
 
@@ -36,7 +37,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 								'depth'          => '1',
 								'menu_class'     => 'bottom-nav',
 								'container'      => 'nav',
-								'container_aria_label' => __( 'Footer menu', Divi Child ),
+								'container_aria_label' => __( 'Footer menu', 'Divi Child' ),
 								'fallback_cb'    => '',
 							) );
 						?>
