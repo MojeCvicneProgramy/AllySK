@@ -250,7 +250,7 @@ $show_search_icon         = ( false !== et_get_option( 'show_search_icon', true 
 					?>
 						<ul id="top-menu" class="<?php echo esc_attr( $menuClass ); ?>">
 							<?php if ( 'on' === et_get_option( 'divi_home_link' ) ) { ?>
-								<li <?php if ( is_home() ) echo( 'class="current_page_item"' ); ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Home', 'Divi' ); ?></a></li>
+								<li <?php if ( is_home() ) echo( 'class="current_page_item"' ); ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Home', 'fix-divi-a11y-man-t' ); ?></a></li>
 							<?php }; ?>
 
 							<?php show_page_menu( $menuClass, false, false ); ?>
