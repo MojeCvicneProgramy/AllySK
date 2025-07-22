@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-22 10:42+0200\n"
+"POT-Creation-Date: 2025-07-22 10:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: footer-new.php:18
+msgid "Back to top"
+msgstr ""
+
+#: footer-new.php:39
+msgid "Footer menu"
+msgstr ""
 
 #: public/general.php:17 public/general.php:23
 msgid "Fix Divi A11y Settings"
@@ -45,14 +53,33 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
-#: theme-header-new.php:122 theme-header-new.php:304
+#: header-new.php:132
+msgid "Close Menu"
+msgstr ""
+
+#: header-new.php:159 header-new.php:341 theme-header-new.php:122
+#: theme-header-new.php:304
 msgid "Search &hellip;"
 msgstr ""
 
-#: theme-header-new.php:124 theme-header-new.php:306
+#: header-new.php:161 header-new.php:343 theme-header-new.php:124
+#: theme-header-new.php:306
 msgid "Search for:"
 msgstr ""
 
-#: theme-header-new.php:174 theme-header-new.php:253
+#: header-new.php:171
+msgid "Submit Search"
+msgstr ""
+
+#: header-new.php:211 header-new.php:290 theme-header-new.php:174
+#: theme-header-new.php:253
 msgid "Home"
+msgstr ""
+
+#: header-new.php:319
+msgid "Access Search Form"
+msgstr ""
+
+#: header-new.php:354
+msgid "Close Search Form"
 msgstr ""

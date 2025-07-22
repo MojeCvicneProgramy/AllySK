@@ -119,9 +119,9 @@ $show_search_icon         = ( false !== et_get_option( 'show_search_icon', true 
 			<form role="search" method="get" class="et-search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 				<?php
 					printf( '<label><span class="screen-reader-text">Search for:</span><input type="search" class="et-search-field" placeholder="%1$s" value="%2$s" name="s" title="%3$s" /></label>',
-							esc_attr__( 'Search &hellip;', 'Divi Child' ),
+							esc_attr__( 'Search &hellip;', 'fix-divi-a11y-man-t' ),
 							get_search_query(),
-							esc_attr__( 'Search for:', 'Divi Child' )
+							esc_attr__( 'Search for:', 'fix-divi-a11y-man-t' )
 						);
 
 					/**
@@ -171,7 +171,7 @@ $show_search_icon         = ( false !== et_get_option( 'show_search_icon', true 
 				if ( '' === $slide_nav ) :
 			?>
 					<?php if ( 'on' === et_get_option( 'divi_home_link' ) ) { ?>
-						<li <?php if ( is_home() ) echo( 'class="current_page_item"' ); ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Home', 'Divi Child' ); ?></a></li>
+						<li <?php if ( is_home() ) echo( 'class="current_page_item"' ); ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Home', 'fix-divi-a11y-man-t' ); ?></a></li>
 					<?php }; ?>
 
 					<?php show_page_menu( $slide_menu_class, false, false ); ?>
@@ -301,9 +301,9 @@ $show_search_icon         = ( false !== et_get_option( 'show_search_icon', true 
 				<form role="search" method="get" class="et-search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 				<?php
 					printf( '<label><span class="screen-reader-text">Search for:</span><input type="search" class="et-search-field" placeholder="%1$s" value="%2$s" name="s" title="%3$s" /></label><input type="submit" value="Submit" class="fd-search" aria-label="Submit Search">',
-							esc_attr__( 'Search &hellip;', 'Divi Child' ),
+							esc_attr__( 'Search &hellip;', 'fix-divi-a11y-man-t' ),
 							get_search_query(),
-							esc_attr__( 'Search for:', 'Divi Child' )
+							esc_attr__( 'Search for:', 'fix-divi-a11y-man-t' )
 						);
 
 					/**

@@ -1,0 +1,2 @@
+./footer-new.php
+./header-new.php

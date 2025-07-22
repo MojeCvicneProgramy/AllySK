@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Fix Divi A11Y Man T
+ * Plugin Name:       Fix Divi A11y Man T
  * Plugin URI:        https://elevagedigital.com/fix-divi-a11y/?utm_source=wordpress&utm_medium=referral&utm_campaign=fixdivi
  * Description:       Fix Accessibility Issues in Divi Theme and Page Builder
  * Requires at least: 6.3
@@ -13,7 +13,7 @@
  * Text Domain:       fix-divi-a11y-man-t
  * Domain Path:       /languages
  *
- * @package           Fix_Divi_A11Y_Man_T
+ * @package           Fix_Divi_A11y_Man_T
  */
 
 

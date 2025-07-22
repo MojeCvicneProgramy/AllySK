@@ -4,8 +4,8 @@
  *
  * @since      1.0.0
  *
- * @package    Fix_Divi_A11Y_Man_T
- * @subpackage Fix_Divi_A11Y_Man_T/public
+ * @package    Fix_Divi_A11y_Man_T
+ * @subpackage Fix_Divi_A11y_Man_T/public
  */
 
 	/**
@@ -92,7 +92,8 @@
 	*
 	**/
 	function add_skip_link() {
-		echo '<a class="screen-reader-text" href="#et-main-area" id="skip-link">Skip to content</a>';
+		echo '<a class="screen-reader-text" href="#et-main-area" id="skip-link">' . esc_html__('Skip to content', 'fix-divi-a11y-man-T') . '</a>';
+;
 	}
 
 	/**

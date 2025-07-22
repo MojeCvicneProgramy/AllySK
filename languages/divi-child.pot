@@ -17,42 +17,38 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: public/general.php:17 public/general.php:23
-msgid "Fix Divi A11y Settings"
+#: footer-new.php:18
+msgid "Back to top"
 msgstr ""
 
-#: public/general.php:17
-msgid "Fix Divi A11y"
+#: footer-new.php:39
+msgid "Footer menu"
 msgstr ""
 
-#: public/general.php:28
-msgid "Save"
+#: header-new.php:132
+msgid "Close Menu"
 msgstr ""
 
-#: public/general.php:36
-msgid "Focus Indicator Color"
-msgstr ""
-
-#: public/general.php:38
-msgid "Select Focus Indicator Color"
-msgstr ""
-
-#: public/general.php:55
-msgid "Color:"
-msgstr ""
-
-#: public/general.php:95
-msgid "Skip to content"
-msgstr ""
-
-#: theme-header-new.php:122 theme-header-new.php:304
+#: header-new.php:159 header-new.php:341
 msgid "Search &hellip;"
 msgstr ""
 
-#: theme-header-new.php:124 theme-header-new.php:306
+#: header-new.php:161 header-new.php:343
 msgid "Search for:"
 msgstr ""
 
-#: theme-header-new.php:174 theme-header-new.php:253
+#: header-new.php:171
+msgid "Submit Search"
+msgstr ""
+
+#: header-new.php:211 header-new.php:290
 msgid "Home"
+msgstr ""
+
+#: header-new.php:319
+msgid "Access Search Form"
+msgstr ""
+
+#: header-new.php:354
+msgid "Close Search Form"
 msgstr ""
