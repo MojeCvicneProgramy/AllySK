@@ -45,3 +45,24 @@ Directions
 1. Install plugin
 2. Go to Settings > Fix Divi A11y to set your focus indicator color
 3. Copy the contents of header-new.php and footer-new.php (based on Divi version 4.25.2) to header.php and footer.php in your child theme
+
+
+Poznámky k automatickému vytvoreniu .pot súboru z kódu, kde sú správne označené a escapnuté HTML výrazy na preklad
+====================================================
+Vytvorenie súboru files to parse v Termináli:
+(base) Fix Divi A11y preložené/fix-divi-a11y-man-T  > find . -type f -name "*.php" > files-to-parse.txt
+
+Vytvorenie .pot súboru v tej istej zložke ako sú všetky súbory na parsovanie:
+(base) Fix Divi A11y preložené/fix-divi-a11y-man-T  > xgettext --files-from=files-to-parse-fix.txt \
+  -o languages/fix-divi-a11y-man-t.pot \
+  --language=PHP \
+  --from-code=UTF-8 \
+  --keyword=__ \
+  --keyword=_e \
+  --keyword=_n:1,2 \
+  --keyword=_x:1,2c \
+  --keyword=_nx:1,2,3c \
+  --keyword=esc_attr__ \
+  --keyword=esc_html__ \
+  --keyword=esc_attr_e \
+  --keyword=esc_html_e
